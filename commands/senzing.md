@@ -1,7 +1,6 @@
 # Senzing
 
 1. If no $ARGUMENTS specified, ask user to choose a subcommand from the following list:
-
    1. changelog-update - Update CHANGELOG.md
    1. code-review - Perform code review
 
