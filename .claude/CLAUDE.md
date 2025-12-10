@@ -2,42 +2,35 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
-## Overview
+## Repository Purpose
 
-This is a **command definition repository** for Claude Code, providing specialized prompts and workflows for Senzing software development. It contains Claude command definitions for automated code reviews, changelog management, and issue resolution across the Senzing ecosystem.
+This repository contains Claude Code artifacts (slash commands) for Senzing projects. Commands defined here are referenced by other Senzing repositories via versioned URLs.
 
-## Architecture
+## Repository Structure
 
-**Three-Layer Command System:**
+- `commands/` - Versioned slash commands referenced via `https://raw.githubusercontent.com/senzing-factory/claude/refs/tags/v1/commands/`
+  - `senzing.md` - Dispatcher with subcommands: `changelog-update`, `code-review`
+  - `senzing-code-review.md` - PR/diff code review checklist
+  - `senzing-changelog-update.md` - Semantic versioning and CHANGELOG.md updates
+- `.claude/commands/` - Project-local commands
+  - `senzing.md` - Fetches instructions from the versioned commands
+  - `senzing-issue-fix-proposal.md` - Issue fix code review
 
-1. **Command Dispatcher** (`commands/senzing.md`) - Entry point that routes to subcommands (`changelog-update` or `code-review`), referencing versioned remote commands from `senzing-factory/claude@v1`
+## CI/CD Workflows
 
-2. **Specialized Commands** (`commands/`) - Standalone commands for PR analysis (`senzing-code-review.md`) and changelog generation (`senzing-changelog-update.md`)
+All workflows use shared definitions from `senzing-factory/build-resources@v3`:
 
-3. **Extended Commands** (`.claude/commands/`) - Wrappers delegating to remote GitHub versions and external knowledge-base workflows
+- **lint-repo.yaml** - Runs linters on push/PR
+- **spellcheck.yaml** - Runs cspell on PRs
+- **claude-pr-review.yaml** - Automated Claude PR review on PRs
 
-**External Dependencies:**
+## Standards
 
-- `senzing-factory/build-resources` (v3): Reusable GitHub workflows
-- `senzing-garage/knowledge-base`: Code style guides and Claude memory configs
+- **Changelog**: Follow [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
+- **Versioning**: Follow [Semantic Versioning](https://semver.org/spec/v2.0.0.html)
+- **Markdown**: Follow [CommonMark](https://commonmark.org/) specification, format with prettier
+- **Code Style**: See `https://raw.githubusercontent.com/senzing-garage/knowledge-base/refs/heads/main/WHATIS/code-style.md`
 
-## Quality Checks
+## Spell Checking
 
-Linting runs automatically on PRs to main via `.github/workflows/lint-repo.yaml`:
-
-- YAML validation (`.github/linters/.yaml-lint.yml`)
-- Code duplication detection (threshold: 5 lines)
-- GitHub Actions security scanning via zizmor
-- Spell checking via cspell
-- Prettier formatting for JSON, Markdown, YAML
-
-## Code Style
-
-- Follow external Senzing code style guide: `https://raw.githubusercontent.com/senzing-garage/knowledge-base/refs/heads/main/WHATIS/code-style.md`
-- Markdown must comply with CommonMark specification
-- CHANGELOG.md follows Keep a Changelog format with Semantic Versioning
-
-## Claude Settings
-
-- `includeCoAuthoredBy: false` - Co-author attribution disabled in commits
-- GitHub Actions use `CLAUDE_CODE_OAUTH_TOKEN` secret for Claude-powered PR reviews
+Custom words are defined in [.vscode/cspell.json](.vscode/cspell.json). Add project-specific terms there to avoid spellcheck failures.
