@@ -33,7 +33,10 @@
     "signingkey",
     "stackoverflow",
     "testcoverage",
-    "vladopajic"
+    "vladopajic",
+    "zizmor"
   ],
-  "ignorePaths": [".git/**"]
+  "ignorePaths": [
+    ".git/**"
+  ]
 }

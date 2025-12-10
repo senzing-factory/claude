@@ -17,12 +17,14 @@ This is a **command definition repository** for Claude Code, providing specializ
 3. **Extended Commands** (`.claude/commands/`) - Wrappers delegating to remote GitHub versions and external knowledge-base workflows
 
 **External Dependencies:**
+
 - `senzing-factory/build-resources` (v3): Reusable GitHub workflows
 - `senzing-garage/knowledge-base`: Code style guides and Claude memory configs
 
 ## Quality Checks
 
 Linting runs automatically on PRs to main via `.github/workflows/lint-repo.yaml`:
+
 - YAML validation (`.github/linters/.yaml-lint.yml`)
 - Code duplication detection (threshold: 5 lines)
 - GitHub Actions security scanning via zizmor
