@@ -5,9 +5,9 @@
    1. `code-review` - Perform code review
 
 1. If subcommand is `changelog-update`
-   1. Perform the steps specified by [https://raw.githubusercontent.com/senzing-factory/build-resources/refs/heads/v3/claude/senzing-changelog-update.md]
+   1. Perform the steps specified by [https://raw.githubusercontent.com/senzing-factory/claude/refs/tags/v1/commands/senzing-changelog-update.md]
 1. If subcommand is `code-review`
-   1. Perform the steps specified by [https://raw.githubusercontent.com/senzing-factory/build-resources/refs/heads/v3/claude/senzing-code-review.md]
+   1. Perform the steps specified by [https://raw.githubusercontent.com/senzing-factory/claude/refs/tags/v1/commands/senzing-code-review.md]
 
-[https://raw.githubusercontent.com/senzing-factory/build-resources/refs/heads/v3/claude/senzing-changelog-update.md]: https://raw.githubusercontent.com/senzing-factory/build-resources/refs/heads/v3/claude/senzing-changelog-update.md
-[https://raw.githubusercontent.com/senzing-factory/build-resources/refs/heads/v3/claude/senzing-code-review.md]: https://raw.githubusercontent.com/senzing-factory/build-resources/refs/heads/v3/claude/senzing-code-review.md
+[https://raw.githubusercontent.com/senzing-factory/claude/refs/tags/v1/commands/senzing-changelog-update.md]: https://raw.githubusercontent.com/senzing-factory/claude/refs/tags/v1/commands/senzing-changelog-update.md
+[https://raw.githubusercontent.com/senzing-factory/claude/refs/tags/v1/commands/senzing-code-review.md]: https://raw.githubusercontent.com/senzing-factory/claude/refs/tags/v1/commands/senzing-code-review.md
