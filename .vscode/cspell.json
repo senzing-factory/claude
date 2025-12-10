@@ -36,7 +36,5 @@
     "vladopajic",
     "zizmor"
   ],
-  "ignorePaths": [
-    ".git/**"
-  ]
+  "ignorePaths": [".git/**"]
 }

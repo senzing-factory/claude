@@ -33,4 +33,4 @@ All workflows use shared definitions from `senzing-factory/build-resources@v3`:
 
 ## Spell Checking
 
-Custom words are defined in [.vscode/cspell.json](.vscode/cspell.json). Add project-specific terms there to avoid spellcheck failures.
+Custom words are defined in [.vscode/cspell.json](.vscode/cspell.json). Add project-specific terms there to avoid spell check failures.
