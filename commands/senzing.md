@@ -3,7 +3,6 @@
 1. If no $ARGUMENTS specified, ask user to choose a subcommand from the following list:
    1. `changelog-update` - Update CHANGELOG.md
    1. `code-review` - Perform code review
-
 1. If subcommand is `changelog-update`
    1. Perform the steps specified by <https://raw.githubusercontent.com/senzing-factory/claude/refs/tags/v1/commands/senzing-changelog-update.md>
 1. If subcommand is `code-review`
