@@ -14,7 +14,7 @@ Evaluate each item and provide ✅/❌ with specific feedback including file pat
 
 ### Code Quality
 
-- [ ] Code follows our style guide: `https://raw.githubusercontent.com/senzing-garage/knowledge-base/refs/heads/main/WHATIS/code-style.md`
+- [ ] Code follows our style guide: <https://raw.githubusercontent.com/senzing-garage/knowledge-base/refs/heads/main/WHATIS/code-style.md>
 - [ ] No commented-out code
 - [ ] Meaningful variable names
 - [ ] DRY principle followed
@@ -34,7 +34,7 @@ Evaluate each item and provide ✅/❌ with specific feedback including file pat
 - [ ] API docs updated
 - [ ] Inline comments for complex logic
 - [ ] CHANGELOG.md updated
-- [ ] Markdown files should follow the CommonMark specification: `https://commonmark.org/`. There should be no extra whitespaces and they should be formatted with prettier.
+- [ ] Markdown files should follow the CommonMark specification: <https://commonmark.org/>. There should be no extra whitespaces and they should be formatted with prettier.
 
 ### Security
 

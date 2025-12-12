@@ -11,13 +11,10 @@
 1. If subcommand is "patch", in `CHANGELOG.md`, add a new "Patch version" section.
 1. In new `CHANGELOG.md` section:
    1. In "Added to {new-semantic-version}" section, report new functionality since last versioned release in human terms.
-   2. In "Changed in {new-semantic-version}" section, report modified functionality since last versioned release in human terms.
-   3. In "Removed from {new-semantic-version}" section, report deleted functionality since last versioned release in human terms.
-   4. In "Fixed in {new-semantic-version}" section, report fixes since last versioned release in human terms.
-   5. Do not include changes to any folders or files starting with a dot (".").
-   6. Adhere to the following standards:
-      1. [https://keepachangelog.com/en/1.0.0/]
-      2. [https://semver.org/spec/v2.0.0.html/]
-
-[https://keepachangelog.com/en/1.0.0/]: https://keepachangelog.com/en/1.0.0/
-[https://semver.org/spec/v2.0.0.html/]: https://semver.org/spec/v2.0.0.html/
+   1. In "Changed in {new-semantic-version}" section, report modified functionality since last versioned release in human terms.
+   1. In "Removed from {new-semantic-version}" section, report deleted functionality since last versioned release in human terms.
+   1. In "Fixed in {new-semantic-version}" section, report fixes since last versioned release in human terms.
+   1. Do not include changes to any folders or files starting with a dot (".").
+   1. Adhere to the following standards:
+      1. <https://keepachangelog.com/en/1.0.0/>
+      1. <https://semver.org/spec/v2.0.0.html/>
