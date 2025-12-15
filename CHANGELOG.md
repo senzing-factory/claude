@@ -2,7 +2,7 @@
 
 All notable changes to this project will be documented in this file.
 
-The change log format is based on [Keep a Changelog] and [CommonMark].
+The changelog format is based on [Keep a Changelog] and [CommonMark].
 This project adheres to [Semantic Versioning].
 
 ## [Unreleased]
