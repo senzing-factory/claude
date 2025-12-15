@@ -2,9 +2,8 @@
 
 All notable changes to this project will be documented in this file.
 
-The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/)
-and [CommonMark](https://commonmark.org).
-This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+The change log format is based on [Keep a Changelog] and [CommonMark].
+This project adheres to [Semantic Versioning].
 
 ## [Unreleased]
 
@@ -34,3 +33,7 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 - `senzing-code-review.md` command
 - `senzing.md` dispatcher command
 - Customary GitHub Actions
+
+[CommonMark]: https://commonmark.org/
+[Keep a Changelog]: https://keepachangelog.com/en/1.1.0/
+[Semantic Versioning]: https://semver.org/spec/v2.0.0.html
