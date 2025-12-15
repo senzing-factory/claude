@@ -11,11 +11,5 @@
    1. Perform the steps specified by <https://raw.githubusercontent.com/senzing-factory/claude/refs/tags/v1/commands/senzing-changelog-update.md>
 1. If subcommand is `code-review`
    1. Perform the steps specified by <https://raw.githubusercontent.com/senzing-factory/claude/refs/tags/v1/commands/senzing-code-review.md>
-1. If subcommand is `github-branches`
-   1. Perform the steps specified by <https://raw.githubusercontent.com/senzing-factory/claude/refs/tags/v1/commands/senzing-github-branches.md>
 1. If subcommand is `github-issue-fix-proposal`
    1. Perform the steps specified by <https://raw.githubusercontent.com/senzing-factory/claude/refs/tags/v1/commands/senzing-github-issue-fix-proposal.md>
-1. If subcommand is `github-issues`
-   1. Perform the steps specified by <https://raw.githubusercontent.com/senzing-factory/claude/refs/tags/v1/commands/senzing-github-issues.md>
-1. If subcommand is `github-pull-requests`
-   1. Perform the steps specified by <https://raw.githubusercontent.com/senzing-factory/claude/refs/tags/v1/commands/senzing-github-pull-requests.md>
