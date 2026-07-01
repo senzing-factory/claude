@@ -10,7 +10,7 @@
     "ICLA",
     "kernelsam",
     "Senzing",
-    "stackoverflow",
+    "stackoverflow"
   ],
   "ignorePaths": [".git/**"]
 }
